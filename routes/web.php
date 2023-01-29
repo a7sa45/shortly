@@ -24,3 +24,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/@{username}', [App\Http\Controllers\HomeController::class, 'profile'])->name('profile');
 //Route::get('/@{username}/edit', [App\Http\Controllers\HomeController::class, 'edit'])->name('edit_profile');
 //Route::post('/user/edit', [App\Http\Controllers\HomeController::class, 'update'])->name('update_profile');
+
+//videos urls
+Route::get('/new-video', [App\Http\Controllers\VideoController::class, 'create'])->name('video.create');
+Route::post('/uplode-video', [App\Http\Controllers\VideoController::class, 'store'])->name('video.uplode');
