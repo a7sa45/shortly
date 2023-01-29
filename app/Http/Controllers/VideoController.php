@@ -64,9 +64,14 @@ class VideoController extends Controller
      * @param  \App\Models\Video  $video
      * @return \Illuminate\Http\Response
      */
-    public function show(Video $video)
+    public function show($video_id)
     {
-        //
+        if($video_id == null)
+        {
+            abort(404);
+        }
+        $video = Video::where('id', $video_id)->first();
+        return view('videos.show', ['video' => $video]);
     }
 
     /**

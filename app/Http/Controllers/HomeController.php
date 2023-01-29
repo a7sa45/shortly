@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\Video;
 
 class HomeController extends Controller
 {
@@ -24,7 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $videos = Video::orderByDesc('created_at')->get();
+        return view('home', ['videos' => $videos]);
     }
 
     public function profile($username)

@@ -38,7 +38,48 @@
             <div class="tab-content" id="tabcontent1">
                 <div class="tab-pane fade show active" id="tabs-text-1" role="tabpanel" aria-labelledby="tabs-text-1-tab">
                     <div class="row justify-content-center">
-                        <div class="col-12 col-lg-8"><div class="card shadow p-3 p-md-4"><div class="card-header border-0 bg-white p-0"><div class="post-meta"><div class="media d-flex align-items-center justify-content-between"><div class="post-group"><a href="#" data-toggle="tooltip" data-placement="top" title="23k followers" data-original-title="23k followers"><img class="avatar-sm me-2 img-fluid rounded-circle" src="../../assets/img/team/profile-picture-2.jpg" alt="Jose portrait"> posted by Jose Leos</a></div><div class="d-flex align-items-center"><div class="btn-group"><button class="btn btn-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><span class="icon icon-sm"><span class="fas fa-ellipsis-h icon-secondary"></span> </span><span class="sr-only">Toggle Dropdown</span></button><div class="dropdown-menu py-0" style=""><a class="dropdown-item rounded-top" href="#"><span class="fas fa-edit me-2"></span>Edit post</a> <a class="dropdown-item text-danger rounded-bottom" href="#"><span class="fa fa-trash me-2" aria-hidden="true"></span>Delete post</a></div></div></div></div></div></div><div class="card-body py-4 px-0"><a href="#"><img src="../../assets/img/blog/image-1.jpg" class="card-img-top rounded mb-3" alt="Webdeveloper desk"><h3 class="h4">List of public corporations by market capitalization</h3></a><p class="card-text mb-2">All of the world's 10 largest companies as measured by market capitalization are American. Market capitalization is the total value of a company's entire purchased shares of stock. While these companies have their roots in the U.S. and are the embodiment of ...</p></div><div class="card-footer bg-white pb-0 px-0"><div class="d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between"><div class="post-details mb-3 mb-lg-0"><button class="btn btn-sm btn-primary animate-hover me-2"><span class="fas fa-arrow-up me-2 animate-up-2"></span> 4</button> <button class="btn btn-sm btn-danger animate-hover"><span class="fas fa-arrow-down me-2 animate-down-2"></span> 1</button></div><div class="post-meta"><a class="text-dark me-3" href="#"><span class="far fa-comments me-2"></span>33.7k</a> <button class="btn me-3 btn-link text-primary"><span class="fas fa-share me-2"></span>Share</button> <button class="btn btn-secondary"><span class="far fa-save me-2"></span>Save</button></div></div></div></div></div>
+                        <div class="col-12 col-lg-8">
+                            <div class="card shadow p-3 p-md-4">
+                                <div class="card-header border-0 bg-white p-0">
+                                    <div class="post-meta">
+                                        <div class="media d-flex align-items-center justify-content-between">
+                                            <div class="post-group">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title="23k followers" data-original-title="23k followers"><img class="avatar-sm me-2 img-fluid rounded-circle" src="../../assets/img/team/profile-picture-2.jpg" alt="Jose portrait"> posted by Jose Leos</a>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <div class="btn-group">
+                                                    <button class="btn btn-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <span class="icon icon-sm"><span class="fas fa-ellipsis-h icon-secondary"></span> </span>
+                                                        <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+                                                    <div class="dropdown-menu py-0" style="">
+                                                        <a class="dropdown-item rounded-top" href="#"><span class="fas fa-edit me-2"></span>Edit post</a> 
+                                                        <a class="dropdown-item text-danger rounded-bottom" href="#"><span class="fa fa-trash me-2" aria-hidden="true"></span>Delete post</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body py-4 px-0">
+                                    <a href="#"><img src="../../assets/img/blog/image-1.jpg" class="card-img-top rounded mb-3" alt="Webdeveloper desk"><h3 class="h4">List of public corporations by market capitalization</h3></a>
+                                    <p class="card-text mb-2">All of the world's 10 largest companies as measured by market capitalization are American. Market capitalization is the total value of a company's entire purchased shares of stock. While these companies have their roots in the U.S. and are the embodiment of ...</p>
+                                </div>
+                                <div class="card-footer bg-white pb-0 px-0">
+                                    <div class="d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
+                                        <div class="post-details mb-3 mb-lg-0">
+                                            <button class="btn btn-sm btn-primary animate-hover me-2"><span class="fas fa-arrow-up me-2 animate-up-2"></span> 4</button> 
+                                            <button class="btn btn-sm btn-danger animate-hover"><span class="fas fa-arrow-down me-2 animate-down-2"></span> 1</button>
+                                        </div>
+                                        <div class="post-meta"><a class="text-dark me-3" href="#">
+                                            <span class="far fa-comments me-2"></span>33.7k</a> 
+                                            <button class="btn me-3 btn-link text-primary"><span class="fas fa-share me-2"></span>Share</button> 
+                                            <button class="btn btn-secondary"><span class="far fa-save me-2"></span>Save</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="tabs-text-2" role="tabpanel" aria-labelledby="tabs-text-2-tab">
@@ -101,7 +142,53 @@
                                                 </div>
                                                 <div class="collapse" id="replyContainer4">
                                                     <label class="mb-4 d-none" for="exampleFormControlTextarea13">Replay</label> 
-                                                    <textarea class="form-control border" id="exampleFormControlTextarea13" placeholder="Reply to John Doe" rows="6" data-bind-characters-target="#charactersRemainingReply4" maxlength="1000"></textarea><div class="d-flex justify-content-between mt-3"><small class="fw-light"><span id="charactersRemainingReply4">1000</span> characters remaining</small> <button class="btn btn-primary btn-sm animate-up-2">Send</button></div></div></div><div class="card bg-gray-200 rounded border-gray-300 p-4 ms-5 mb-4"><div class="d-flex justify-content-between mb-4"><span class="font-small"><a href="#"><img class="avatar-sm img-fluid rounded-circle me-2" src="../../assets/img/team/profile-picture-5.jpg" alt="Jose avatar"> <span class="fw-bold">Jose Leos</span> </a><span class="ms-2">2 min ago</span></span><div><button class="btn btn-link text-danger" aria-label="report button"><span class="far fa-flag"></span></button></div></div><p class="m-0">Hi John Doe,<br><br>We're happy to hear you like our product. A new one will come soon enough!</p><div class="mt-4 mb-3 d-flex justify-content-between"><div><span class="far fa-thumbs-up text-action text-success me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Like comment" data-bs-original-title="Like comment" aria-label="Like comment"></span> <span class="far fa-thumbs-down text-action text-danger me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Dislike comment" data-bs-original-title="Dislike comment" aria-label="Dislike comment"></span> <span class="font-small fw-light">2 likes</span></div><a class="text-action fw-light font-small" data-bs-toggle="collapse" role="button" href="#replyContainer5" aria-expanded="false" aria-controls="replyContainer5"><span class="fas fa-reply me-2"></span> Reply</a></div><div class="collapse" id="replyContainer5"><label class="mb-4 d-none" for="exampleFormControlTextarea14">Replay</label> <textarea class="form-control border" id="exampleFormControlTextarea14" placeholder="Reply to John Doe" rows="6" data-bind-characters-target="#charactersRemainingReply5" maxlength="1000"></textarea><div class="d-flex justify-content-between mt-3"><small class="fw-light"><span id="charactersRemainingReply5">1000</span> characters remaining</small> <button class="btn btn-primary btn-sm animate-up-2">Send</button></div></div></div></div><div class="mt-5 text-center"><button id="loadOnClick" class="btn btn-primary btn-loading-overlay me-2 mb-2"><span class="spinner"><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> </span><span class="ms-1 btn-inner-text">Load more comments</span></button><p id="allLoadedText" style="display: none;">That's all, Sparky!</p></div></div></div></div></div>
+                                                    <textarea class="form-control border" id="exampleFormControlTextarea13" placeholder="Reply to John Doe" rows="6" data-bind-characters-target="#charactersRemainingReply4" maxlength="1000"></textarea>
+                                                    <div class="d-flex justify-content-between mt-3">
+                                                        <small class="fw-light"><span id="charactersRemainingReply4">1000</span> characters remaining</small> 
+                                                        <button class="btn btn-primary btn-sm animate-up-2">Send</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card bg-gray-200 rounded border-gray-300 p-4 ms-5 mb-4">
+                                                <div class="d-flex justify-content-between mb-4">
+                                                    <span class="font-small">
+                                                        <a href="#"><img class="avatar-sm img-fluid rounded-circle me-2" src="../../assets/img/team/profile-picture-5.jpg" alt="Jose avatar"> <span class="fw-bold">Jose Leos</span> </a>
+                                                        <span class="ms-2">2 min ago</span>
+                                                    </span>
+                                                    <div>
+                                                        <button class="btn btn-link text-danger" aria-label="report button">
+                                                            <span class="far fa-flag"></span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <p class="m-0">Hi John Doe,<br><br>We're happy to hear you like our product. A new one will come soon enough!</p>
+                                                <div class="mt-4 mb-3 d-flex justify-content-between"><div>
+                                                    <span class="far fa-thumbs-up text-action text-success me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Like comment" data-bs-original-title="Like comment" aria-label="Like comment"></span> 
+                                                    <span class="far fa-thumbs-down text-action text-danger me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Dislike comment" data-bs-original-title="Dislike comment" aria-label="Dislike comment"></span> 
+                                                    <span class="font-small fw-light">2 likes</span>
+                                                </div>
+                                                <a class="text-action fw-light font-small" data-bs-toggle="collapse" role="button" href="#replyContainer5" aria-expanded="false" aria-controls="replyContainer5"><span class="fas fa-reply me-2"></span> Reply</a>
+                                            </div>
+                                            <div class="collapse" id="replyContainer5">
+                                                <label class="mb-4 d-none" for="exampleFormControlTextarea14">Replay</label> 
+                                                <textarea class="form-control border" id="exampleFormControlTextarea14" placeholder="Reply to John Doe" rows="6" data-bind-characters-target="#charactersRemainingReply5" maxlength="1000"></textarea>
+                                                <div class="d-flex justify-content-between mt-3"><small class="fw-light">
+                                                    <span id="charactersRemainingReply5">1000</span> characters remaining</small> 
+                                                    <button class="btn btn-primary btn-sm animate-up-2">Send</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 text-center">
+                                        <button id="loadOnClick" class="btn btn-primary btn-loading-overlay me-2 mb-2">
+                                            <span class="spinner"><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> </span>
+                                            <span class="ms-1 btn-inner-text">Load more comments</span>
+                                        </button><p id="allLoadedText" style="display: none;">That's all, Sparky!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="tabs-text-3" role="tabpanel" aria-labelledby="tabs-text-3-tab">
                     <div class="row justify-content-center">

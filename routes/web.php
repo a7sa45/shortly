@@ -28,3 +28,4 @@ Route::get('/@{username}', [App\Http\Controllers\HomeController::class, 'profile
 //videos urls
 Route::get('/new-video', [App\Http\Controllers\VideoController::class, 'create'])->name('video.create');
 Route::post('/uplode-video', [App\Http\Controllers\VideoController::class, 'store'])->name('video.uplode');
+Route::get('/video-{id}', [App\Http\Controllers\VideoController::class, 'show'])->name('video.show');
