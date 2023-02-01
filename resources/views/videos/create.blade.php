@@ -6,7 +6,7 @@
 
 
     <!-- Section -->
-    <section class="min-vh-100 d-flex align-items-center section-image overlay-soft-dark" data-background="https://images.unsplash.com/photo-1636971828014-0f3493cba88a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" style="background: url('https://images.unsplash.com/photo-1618329027137-a520b57c6606?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80')">
+    <section class="min-vh-100 d-flex align-items-center section-image overlay-soft-dark" data-background="https://images.unsplash.com/photo-1618329027137-a520b57c6606?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80" style="background: url('https://images.unsplash.com/photo-1618329027137-a520b57c6606?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80')">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 d-flex align-items-center justify-content-center">

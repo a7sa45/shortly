@@ -272,15 +272,12 @@
                         @guest
                         <a href="{{ route('login') }}" class="btn btn-tertiary"><span class="me-2"><i class="fas fa-sign-in-alt"></i></span> login</a>
                         @else
-                            <div class="btn-group nav-item dropdown">
-                                <button class="btn btn-link btn-tertiary dropdown-toggle dropdown-toggle-split me-n1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <span class="icon icon">
-                                        <img class="avatar-sm img-fluid rounded-circle" src="../../assets/img/team/profile-picture-2.jpg" alt="Jose portrait"> 
-                                    </span>
-                                    <span class="fas fa-angle-left dropdown-arrow"></span>
-                                    <span class="sr-only">Toggle Dropdown</span>
-                                </button>
-                                <div class="dropdown-menu py-0">
+                            <div class="btn-group nav-item">
+                                <a class="btn btn-link btn-tertiary me-n1" href="/<?php echo '@'.Auth::user()->username ?>">
+                                    {{-- <imgclass="avatar-smimg-fluidrounded-circle"src="../../assets/img/team/profile-picture-2.jpg"alt="Joseportrait"> --}}
+                                    <img style="border-radius: 50%" src="https://pbs.twimg.com/profile_images/1511438467657617415/Dg-BdiNK_400x400.jpg" width="30" height="30" alt="user_logo">
+                                </a>
+                                {{--<div class="dropdown-menu py-0">
                                     <a class="dropdown-item rounded-top" href="#"><span class="fas fa-edit me-2"></span>Edit post</a>
                                     <button class="dropdown-item text-danger rounded-bottom" href="{{ route('logout') }}"
                                     onclick="event.preventDefault();
@@ -288,7 +285,7 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
-                                </div>
+                                </div>--}}
                             </div>
                         @endguest
                         <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">

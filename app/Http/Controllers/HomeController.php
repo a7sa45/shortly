@@ -37,10 +37,10 @@ class HomeController extends Controller
             abort(404);
         }
 
-        //$shortcuts = Shortcut::all()->where('user_id', $username->id);
+        $videos = Video::all()->where('user_id', $username->id);
         //$likes = Shortcut::whereLikedBy($username->id)->with('likeCounter')->get();
         //$comment = Shortcut::
         //$comments = Comment::all()->where('user_id', $username->id);
-        return view('profile', ['username' => $username]);
+        return view('profile', ['username' => $username, 'videos' => $videos]);
     }
 }

@@ -14,6 +14,8 @@
                                     {{ $video->user->name }}
                                 </a>
                             </div>
+                            @auth
+                            @if(Auth::user()->id == $video->user_id)
                             <div class="d-flex align-items-center">
                                 <div class="btn-group">
                                     <button class="btn btn-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -26,6 +28,8 @@
                                     </div>
                                 </div>
                             </div>
+                            @endif
+                            @endauth
                         </div>
                     </div>
                 </div>
@@ -35,9 +39,9 @@
                             <source src="videos/{{ $video->video_path }}" type="video/mp4">
                             <source src="videos/{{ $video->video_path }}" type="video/ogg">
                         </video>
-                        <h3 class="h4"></h3>
+                        <h3 class="h4">{{ $video->title }}</h3>
                     </a>
-                    <p class="card-text mb-2"></p>
+                    <p class="card-text mb-2">{{ $video->text }}</p>
                 </div>
                 <div class="card-footer bg-white pb-0 px-0">
                     <div class="d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
