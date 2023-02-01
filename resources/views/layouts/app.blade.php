@@ -106,7 +106,7 @@
                                 </div>
                             </div>
                         </div>
-                        <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                        {{--<ul class="navbar-nav navbar-nav-hover align-items-lg-center">
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" id="frontPagesDropdown" aria-expanded="false" data-bs-toggle="dropdown">
                                     Pages
@@ -266,7 +266,7 @@
                                     </div>
                                 </div>
                             </li>
-                        </ul>
+                        </ul>--}}
                     </div>
                     <div class="d-flex align-items-center">
                         @guest
@@ -275,7 +275,7 @@
                             <div class="btn-group nav-item">
                                 <a class="btn btn-link btn-tertiary me-n1" href="/<?php echo '@'.Auth::user()->username ?>">
                                     {{-- <imgclass="avatar-smimg-fluidrounded-circle"src="../../assets/img/team/profile-picture-2.jpg"alt="Joseportrait"> --}}
-                                    <img style="border-radius: 50%" src="https://pbs.twimg.com/profile_images/1511438467657617415/Dg-BdiNK_400x400.jpg" width="30" height="30" alt="user_logo">
+                                    <img style="border-radius: 50%" src="https://pic.onlinewebfonts.com/svg/img_569204.png" width="30" height="30" alt="user_logo">
                                 </a>
                                 {{--<div class="dropdown-menu py-0">
                                     <a class="dropdown-item rounded-top" href="#"><span class="fas fa-edit me-2"></span>Edit post</a>
